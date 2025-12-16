@@ -47,7 +47,6 @@ export default function App() {
           Full-Stack Developer passionate about building clean, modern, and
           scalable web apps.
         </p>
-        <button className="btn">View My Work</button>
       </section>
 
       {/* About Section */}
@@ -72,6 +71,7 @@ export default function App() {
             <a
               href="https://weather-dashboard-flax-one.vercel.app"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="btn">View Project</button>
             </a>
@@ -84,18 +84,10 @@ export default function App() {
             <a
               href="https://ecommerce-eight-puce-74.vercel.app"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="btn">View Project</button>
             </a>
-          </div>
-
-          {/* Tourist Management (Not deployed) */}
-          <div className="project-card" data-aos="fade-up">
-            <h3>Tourist Management</h3>
-            <p>Tourism management system for trip planning and data handling.</p>
-            <button className="btn" disabled style={{ opacity: 0.5 }}>
-              Not Published
-            </button>
           </div>
 
         </div>
